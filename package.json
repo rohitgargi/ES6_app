@@ -1,0 +1,16 @@
+{
+  "name": "es6_app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "start":"sass --watch app/style.scss dist/style.css"
+  },
+  "author": "Rohit Sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
+}
